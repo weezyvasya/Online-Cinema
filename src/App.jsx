@@ -1,9 +1,12 @@
 import './App.css'
-import PopularList from './features/popular/PolularList'
+import Favorites from './features/favorites/Favorites'
+import PopularList from './features/popular/PopularList'
+
 function App() {
 
   return (
     <>
+      <Favorites/>
       <PopularList/>
     </>
   )
